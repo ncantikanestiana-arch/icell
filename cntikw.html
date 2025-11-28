@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Portofolio Cantika</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">Cantika</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li>
+          <button class="btn-contact" onclick="document.getElementById('contact').scrollIntoView()">
+            Contact
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main id="home" class="hero">
+    <div class="hero-content">
+      <h4>Hey, I'm</h4>
+      <h1><span>Cantika</span></h1>
+      <h2>I'm a <span>Developer</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi
+        commodi quo rerum, iste corporis expedita in excepturi nesciunt repellendus
+        quisquam amet provident.
+      </p>
+
+      <div class="social-icons">
+        <div class="icon-circle">in</div>
+        <div class="icon-circle">G</div>
+        <div class="icon-circle">F</div>
+        <div class="icon-circle">I</div>
+      </div>
+
+      <a href="22.jpg" class="btn-cv" target="_blank">Download CV</a> 
+  </div>
+      
+      
+
+    <div class="hero-image">
+      <div class="image-wrapper">
+        <img src="11.jpg">
+      </div>
+    </div>
+  </main>
+
+  <!-- Sections -->
+  <section id="about">
+    <h3>About</h3>
+    <p>
+      Cantika adalah seorang developer yang fokus pada pengembangan web modern
+      dengan perhatian besar pada desain yang clean dan responsif.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h3>Skills</h3>
+    <p>
+      HTML, CSS, JavaScript, React, Python, UI/UX dasar, dan pengembangan aplikasi sederhana.
+    </p>
+  </section>
+
+  <section id="services">
+    <h3>Services</h3>
+    <p>
+      Pembuatan landing page, website portofolio, dan aplikasi web sederhana sesuai kebutuhan klien.
+    </p>
+  </section>
+
+  <section id="blogs">
+    <h3>Blogs</h3>
+    <p>
+      Berisi tulisan seputar tips belajar programming, UI/UX, dan pengalaman proyek yang pernah dikerjakan.
+    </p>
+  </section>
+  <!-- Contact Us Form -->
+  <section id="contact">
+    <h3>Contact Us</h3>
+    <form action="https://formspree.io/f/your_form_id" method="POST">
+      <label for="name">Nama:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Pesan:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+</body>
+</html>
+
